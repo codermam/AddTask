@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/tasks";
-
+const API_URL =
+  "https://addtask-wpyp.onrender.com/api/tasks";
 export const createTask = async (token, data) => {
   const res = await axios.post(
     API_URL,
